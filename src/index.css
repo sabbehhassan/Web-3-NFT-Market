@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* In your global CSS or App.vue */
+html, body {
+  overflow-x: hidden;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+/* index.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
